@@ -1,6 +1,8 @@
 html,body{
   width: auto;
   margin:0;
+
+
 }
 
 *{
@@ -9,28 +11,55 @@ html,body{
 
 .header{
   background-image: url(http://safiyahesack.files.wordpress.com/2013/03/big-wave-surfing-wallpapers-1920x1080.jpg);
-  height: 10rem;
+  height: 20rem;
+
   width: 100%;
+  max-width: 65rem;
+  margin: auto;
 
 
 
 }
 
-.navbar{
-
-
-
-
-
-}
-
-.navbar__logo{
-max-width: 50%;
+.topnav {
+  background-color: orange;
 
 
 }
 
+.header-container {
+
+}
+
+.row {
+  display: flex;
+
+
+}
+
+.top-left__nav {
+  display: flex;
+
+
+}
+
+.nav-items {
+  margin: 1rem 1rem;
+
+
+}
+
+.nav-item__icon {
+  width: 2em;
+
+}
+
+.links {
+  display: flex;
+
+}
 .about-link{
+
 
  font-family: sans-serif;
 
@@ -42,7 +71,6 @@ max-width: 50%;
 }
 
 .hero-title{
-
 
 
   font: sans-serif;
@@ -75,15 +103,13 @@ max-width: 50%;
 
 
 .content {
-
-  display: flex;
-  flex-wrap: wrap;
-
-
+display: flex;
   width: auto;
   background: blue;
 
 }
+
+
 
 .left-article{
   background-color: purple;
@@ -167,6 +193,7 @@ float: left;
 }
 
 .footer-heading{
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -177,8 +204,7 @@ float: left;
 }
 
 .footer-other__postitempicture{
-  display: flex;
-  height: 10rem;
+
 
 }
 
@@ -193,22 +219,22 @@ float: left;
 
 }
 
-.footer-navbar{
+.bottom-nav__left {
 
-
-
-
-}
-
-.footer-navbar__logo{
-
+  display: flex;
+  background-color: yellow;
 
 }
 
-.footer-navbar__legal{
+.container {
+  width: 100%;
+
+  margin: auto;
+}
+.row {
 
 }
 
-.footer-navbar__navitems{
+.nav-items__items {
 
 }
