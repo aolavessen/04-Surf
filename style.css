@@ -8,18 +8,16 @@ html,body{
 }
 
 .header{
-  background-color: orange;
-  display: flex;
+  background-image: url(http://safiyahesack.files.wordpress.com/2013/03/big-wave-surfing-wallpapers-1920x1080.jpg);
   height: 10rem;
   width: 100%;
-  background-image:
+
 
 
 }
 
 .navbar{
-  display: flex;
-  flex-direction:
+
 
 
 
@@ -33,7 +31,8 @@ max-width: 50%;
 }
 
 .about-link{
-font-family: sans-serif;
+
+ font-family: sans-serif;
 
 }
 
@@ -43,7 +42,7 @@ font-family: sans-serif;
 }
 
 .hero-title{
-  text-align: center;
+
 
 
   font: sans-serif;
@@ -78,6 +77,8 @@ font-family: sans-serif;
 .content {
 
   display: flex;
+  flex-wrap: wrap;
+
 
   width: auto;
   background: blue;
@@ -86,21 +87,22 @@ font-family: sans-serif;
 
 .left-article{
   background-color: purple;
+
 }
 
 .article-heading{
   text-align: center;
-  font-size: 2rem;
-
 
 }
 
 .article-author__avatar{
-  max-width: 50%;
 
 
 }
 
+.author-pic{
+float: left;
+}
 .article-author__publishdate{
   font-size: 1rem;
 
@@ -108,19 +110,27 @@ font-family: sans-serif;
 }
 
 .article-text{
+  font-size: 1rem;
+
+
 
 }
 
 .article-quote{
+  font-size: 2rem;
 
 }
 
+
 .right-article{
-  background-color: yellow;
+  display: flex;
+  background-color: red;
 
 }
 
 .author-image{
+
+
 
 }
 
@@ -133,7 +143,7 @@ font-family: sans-serif;
 }
 
 .ad-image{
-  image-orientation: 50%,50%;
+
 
 }
 
@@ -148,6 +158,7 @@ font-family: sans-serif;
 
 
 .footer{
+
   background-color: pink;
   height: 25rem;
   width: auto;
@@ -160,27 +171,37 @@ font-family: sans-serif;
 }
 
 .footer-other__post{
+  display: flex;
+
 
 }
 
 .footer-other__postitempicture{
+  display: flex;
+  height: 10rem;
 
+}
 
-
+.pic{
+  height: 10rem;
+  width: 10rem;
 }
 
 .footer-other__postitemtitle{
 
-  text-align: center;
+
 
 }
 
 .footer-navbar{
 
 
+
+
 }
 
 .footer-navbar__logo{
+
 
 }
 
