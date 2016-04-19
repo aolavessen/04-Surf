@@ -14,7 +14,7 @@
 }
 
 .header {
-  background-image: url(http://gaslampden.com/wp-content/uploads/sites/3/2014/04/surfer-1.jpg);
+  background-image: url('http://surf-wax.co.uk/wp-content/uploads/2014/10/surf-the-wave.jpg');
 
   background-size: 100% 100%;
   background-position: center;
@@ -101,7 +101,7 @@
 
 .main {
 
-  width: 75%;
+  max-width: 75%;
   display: flex;
   margin: auto;
   padding: 2rem 0rem;
@@ -220,7 +220,7 @@
 }
 
 .footer_row1_column {
-  width: 25%;
+  max-width: 25%;
   position: relative;
   overflow: hidden;
   float: left;
