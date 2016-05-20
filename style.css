@@ -20,8 +20,8 @@
   background-position: center;
   position: relative;
   width: 100%;
-  max-width: 85%;
-  margin: auto;
+  /*max-width: 85%;*/
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
@@ -111,9 +111,11 @@
 }
 
 .main_left {
+
   display: flex;
   flex-direction: column;
   flex-basis: 70%;
+  padding-right: 1rem;
 
 }
 
@@ -123,6 +125,7 @@
   flex-direction: column;
   align-items: center;
   flex-basis: 30%;
+  padding-left: 1rem;
 
 }
 
@@ -206,7 +209,7 @@
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  max-width: 85%;
+  max-width: 100%;
   margin: auto;
   border-top: 1px solid gray;
 }
@@ -227,15 +230,16 @@
   max-width: 25%;
   position: relative;
   overflow: hidden;
-  float: left;
+  /*float: left;*/
 }
 
 .footer_post_img {
   width: 100%;
-  height: 100%;
-  position: absolute;
+  /*height: 100%;*/
+  height: 15rem;
   top: 0;
   left: 0;
+  /*z-index: -1;*/
 }
 
 .footer_post_text {
@@ -243,6 +247,9 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  text-transform: uppercase;
+  color: white;
+
 }
 
 .footer_row2 {
